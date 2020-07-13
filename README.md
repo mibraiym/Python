@@ -1,10 +1,10 @@
 # Clarusway AWS & DevOps for Professionals Cohort 3/20 Workshop
 
-This private workshop repository contains projects, hands-on training, coding challenges, and classnotes for the Clarusway Students of AWS & DevOps Pro Cohort 3/20.
+This private workshop repository contains projects, hands-on training, coding challenges, and class-notes for the Clarusway Students of AWS & DevOps Pro Cohort 3/20.
 
 ## Description
 
-The clarusway-workshop repository contains materials related to the IT trainings like projects, hands-on trainings, coding challenges, classnotes etc. in the following main areas.
+The clarusway-workshop repository contains materials related to the IT trainings like projects, hands-on trainings, coding challenges, class-notes etc. in the following main areas.
 
 - [AWS Workshop](./aws/README.md)
 
@@ -12,11 +12,15 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
     - [AWS Workshop Projects](./aws/projects/README.md)
 
+    - [AWS Session Class-notes](./aws/class-notes/README.md)
+
 - [DevOps Workshop](./devops/README.md)
 
     - [DevOps Workshop Hands-on Trainings](./devops/hands-on/README.md)
 
     - [DevOps Workshop Projects](./devops/projects/README.md)
+
+    - [DevOps Session Class-notes](./devops/class-notes/README.md)
 
 - [Linux Workshop](./linux/README.md)
 
@@ -24,11 +28,17 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
     - [Linux Workshop Projects](./linux/projects/README.md)
 
+    - [Linux Session Class-notes](./linux/class-notes/README.md)
+
 - [Python Workshop](./python/README.md)
 
     - [Python Workshop Hands-on Trainings](./python/hands-on/README.md)
 
     - [Python Workshop Projects](./python/projects/README.md)
+
+    - [Python Workshop Coding Challenges](./python/coding-challenges/README.md)
+
+    - [Python Session Class-notes](./python/class-notes/README.md)
 
 
 ## Rules & Policy
@@ -37,7 +47,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
 - Every material within this repo is meant for building portfolios of students.
 
-- Solution of the projects, hands-on trainings or coding challenges etc. will not be shared within this repo.
+- Solution of the projects, hands-on trainings or coding challenges will not be shared within this repo.
 
 - Students of Clarusway can clone/download this repo to get the latest materials related to their trainings.
 
