@@ -69,7 +69,7 @@ Kittens Carousel is a static website application deployed with Apache Web Server
 
 ### At the end of the project, students will be able to;
 
-- install Apache Web Server on Amazon Linux 2
+- install Apache Web Server on Amazon Linux 2.
 
 - improve bash scripting skills using `user data` section in Cloudformation to install and setup web application on EC2 Instance.
 
