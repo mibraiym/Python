@@ -19,11 +19,11 @@ Kittens Carousel is a static website application deployed with Apache Web Server
 
       - The application stack should be created with new AWS resources. 
    
-      - The application should run on `Amazon Linux 2` EC2 Instance
+      - The application should run on `Amazon Linux 2` EC2 Instance.
 
       - EC2 Instance type can be configured as `t2.micro`.
 
-      - Instance launched by Cloudformation should be tagged `Web Server of StackName` 
+      - Instance launched by Cloudformation should be tagged `Web Server of StackName`.
 
       - The Web Application should be accessible via web browser from anywhere.
 
@@ -71,7 +71,7 @@ Kittens Carousel is a static website application deployed with Apache Web Server
 
 - install Apache Web Server on Amazon Linux 2
 
-- improve bash scripting skills using `user data` section in Cloudformation to install and setup web application on EC2 Instance
+- improve bash scripting skills using `user data` section in Cloudformation to install and setup web application on EC2 Instance.
 
 - configure AWS EC2 Instance and Security Groups.
 
