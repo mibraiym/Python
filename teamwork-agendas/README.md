@@ -1,5 +1,5 @@
-# Teamwork Agendas
+# AWS & DevOps Teamwork Agendas
 
-Teamwork Agendas contains teamwork papers for each learning path.
+List of teamwork agendas for AWS & DevOps learning path as follows;
 
-- [List of Teamwork Agendas for AWS & DevOps Learning Path](./aws-devops/README.md)
+- [Teamwork Agenda - 001 : AWS EC2, Cloudformation](./tw-001-team-lead.pdf)
