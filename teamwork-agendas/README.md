@@ -2,4 +2,4 @@
 
 List of teamwork agendas for AWS & DevOps learning path as follows;
 
-- [Teamwork Agenda - 001 : AWS EC2, Cloudformation](./tw-001-team-lead.pdf)
+- [Teamwork Agenda - 001 : AWS EC2, Cloudformation](./pro-tw-001-student.pdf)
