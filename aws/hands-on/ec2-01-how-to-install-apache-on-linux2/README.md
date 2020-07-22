@@ -40,7 +40,7 @@ The Apache HTTP Server, known as Apache, is a free and open-source cross-platfor
 
 - Connect to your instance with SSH.
 
-## Installing and Configuring Apache Web Server to Run `Hello World` Page
+## Part 3 - Installing and Configuring Apache Web Server to Run `Hello World` Page
 
 - Update the installed packages and package cache on your instance.
 
