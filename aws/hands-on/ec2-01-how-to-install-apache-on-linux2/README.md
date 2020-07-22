@@ -40,66 +40,23 @@ The Apache HTTP Server, known as Apache, is a free and open-source cross-platfor
 
 - Connect to your instance with SSH.
 
-```bash
-ssh -i .ssh/call-training.pem ec2-user@ec2-3-15-183-78.us-east-2.compute.amazonaws.com
-```
-
 ## Installing and Configuring Apache Web Server to Run `Hello World` Page
 
 - Update the installed packages and package cache on your instance.
 
-```bash
-sudo yum update -y
-```
-
 - Install the Apache Web Server.
-
-```bash
-sudo yum install httpd -y
-```
 
 - Start the Apache Web Server.
 
-```bash
-sudo systemctl start httpd
-```
-
 - Check status of the Apache Web Server.
-
-```bash
-sudo systemctl status httpd
-```
 
 - Set permission of the files and folders under `/var/www/html/` folder to everyone.
 
-```bash
-sudo chmod -R 777 /var/www/html
-```
-
 - Create a custom `index.html` file under `/var/www/html/` folder to be served on the Server.
-
-```bash
-echo "<html>
-<head>
-    <title> My First Web Server</title>
-</head>
-<body>
-    <h1>Hello to Everyone from My First Web Server</h1>
-</body>
-</html>" > /var/www/html/index.html
-```
 
 - Restart the Apache Web Server.
 
-```bash
-sudo systemctl restart httpd
-```
-
 - Enable the Apache Web Server to survive the restarts.
-
-```bash
-sudo systemctl enable httpd
-```
 
 - Check if the Web Server is working properly from the browser.
 
@@ -109,35 +66,8 @@ sudo systemctl enable httpd
 
 - Configure instance to automate web server installation with `user data` script.
 
-```bash
-#! /bin/bash
-#update os
-yum update -y
-#install apache server
-yum install -y httpd
-# get date and time of server
-DATE_TIME=`date`
-# create a custom index.html file
-echo "<html>
-<head>
-    <title> My First Web Server</title>
-</head>
-<body>
-    <h1>Hello to Everyone from My First Web Server</h1>
-    <p>This instance is created at <b>$DATE_TIME</b></p>
-</body>
-</html>" > /var/www/html/index.html
-# start apache server
-systemctl start httpd
-systemctl enable httpd
-```
-
 - Review and launch the EC2 Instance
 
 - Once Instance is on, check if the Apache Web Server is working from the web browser.
 
 - Connect the Apache Web Server from the terminal with `curl` command.
-
-```bash
-curl http://ec2-3-15-183-78.us-east-2.compute.amazonaws.com
-```
