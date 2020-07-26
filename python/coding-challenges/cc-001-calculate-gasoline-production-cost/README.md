@@ -1,4 +1,4 @@
-# Coding Challenge - 007: Calculate the Gasoline Production & Cost
+# Coding Challenge - 001: Calculate the Gasoline Production & Cost
 
 The purpose of this coding challenge is to write a program that calculates gasoline usage depending on the given information.
 
@@ -56,22 +56,4 @@ Output
 0.8564102564102564 barrel(s) of oil required to produce 16.7 gallon(s) of gas
 
 It will cost 47.412135 dollar(s).
-```
-
-## Solution
-
-### Flow Chart
-
-![image](./CC-007-FC.png)
-
-### Coding
-
-```python
-gallon = float(input("Enter amount of gallons: "))
-liter = gallon * 3.7854
-barrel = gallon / 19.5
-cost = liter * 0.75
-
-print(str(barrel) + " barrel(s) of oil required to produce " + str(gallon) + " gallon(s) of gas")
-print("It wil cost " + str(cost) + " dollar(s)")
 ```
