@@ -8,38 +8,39 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
 - [AWS Workshop](./aws/README.md)
 
-    - [AWS Workshop Hands-on Trainings](./aws/hands-on/README.md)
+  - [AWS Workshop Hands-on Trainings](./aws/hands-on/README.md)
 
-    - [AWS Workshop Projects](./aws/projects/README.md)
+  - [AWS Workshop Projects](./aws/projects/README.md)
 
-    - [AWS Session Class-notes](./aws/class-notes/README.md)
+  - [AWS Session Class-notes](./aws/class-notes/README.md)
 
 - [DevOps Workshop](./devops/README.md)
 
-    - [DevOps Workshop Hands-on Trainings](./devops/hands-on/README.md)
+  - [DevOps Workshop Hands-on Trainings](./devops/hands-on/README.md)
 
-    - [DevOps Workshop Projects](./devops/projects/README.md)
+  - [DevOps Workshop Projects](./devops/projects/README.md)
 
-    - [DevOps Session Class-notes](./devops/class-notes/README.md)
+  - [DevOps Session Class-notes](./devops/class-notes/README.md)
 
 - [Linux Workshop](./linux/README.md)
 
-    - [Linux Workshop Hands-on Trainings](./linux/hands-on/README.md)
+  - [Linux Workshop Hands-on Trainings](./linux/hands-on/README.md)
 
-    - [Linux Workshop Projects](./linux/projects/README.md)
+  - [Linux Workshop Projects](./linux/projects/README.md)
 
-    - [Linux Session Class-notes](./linux/class-notes/README.md)
+  - [Linux Session Class-notes](./linux/class-notes/README.md)
 
 - [Python Workshop](./python/README.md)
 
-    - [Python Workshop Hands-on Trainings](./python/hands-on/README.md)
+  - [Python Workshop Hands-on Trainings](./python/hands-on/README.md)
 
-    - [Python Workshop Projects](./python/projects/README.md)
+  - [Python Workshop Projects](./python/projects/README.md)
 
-    - [Python Workshop Coding Challenges](./python/coding-challenges/README.md)
+  - [Python Workshop Coding Challenges](./python/coding-challenges/README.md)
 
-    - [Python Session Class-notes](./python/class-notes/README.md)
+  - [Python Session Class-notes](./python/class-notes/README.md)
 
+- [AWS & DevOps Learning Path Teamwork Agendas](./teamwork-agendas/README.md)
 
 ## Rules & Policy
 
