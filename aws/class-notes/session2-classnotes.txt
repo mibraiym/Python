@@ -1,0 +1,69 @@
+
+Git Session 2 - 07262020
+
+Create a new folder on your desktop names git-projects
+create a new folder names lemonade
+
+Commit:  creates SHA1 hash code. (40 character long code)
+
+What's branch? 
+Branch is a reference to a single Commit.
+
+https://git-school.github.io/visualizing-git/
+
+
+git branch branchname :creates a new branch.
+
+git branch : shows the branch names and where the head is with asteriks
+
+if you are already tracking a file (already added to your staging before),
+You can add and commit at once with 
+git commit -am "Commit message"
+
+
+
+git checkout -b new branchname : creates a branch and checkout to that branch
+
+
+break until 4:02pm EST
+-------
+Delete a branch:
+git branch -d branchname
+
+See the branches and the head
+git branch
+
+Repo    : collection of files on your project. .git folder.
+commits, references, head, objects inside the commits (Files & folder)
+Commit  : snapshot of your project. (objects-files & folders in it)
+Branch  : is a reference to a single commit. to do our job. isolate whatever we do from others we use branches.
+Head    : is a reference to a branch. it gives an idea to git about where to go next.
+
+git branch -r : see remote branches
+git branch -a : to see all branches
+
+git branch -d branchname: delete branch 
+git branch -D branchname: Force delete branch
+
+
+break until 5:10 EST
+
+
+
+
+   90  git branch -d newbranch
+   91  git branch -D newbranch
+   92  git branch
+   93  git branch -D valerie
+   94  git branch -D bugfix
+   95  git branch
+   96  git status
+   97  git remote add origin https://github.com/Ertunch/lemonade.git
+   98  git push -u origin master
+   99  git add .
+  100  git commit -m "added more"
+  101  git status
+  102  git push
+  103  git .
+  104  git status
+  105  git pull
