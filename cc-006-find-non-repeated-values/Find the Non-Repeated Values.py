@@ -4,10 +4,13 @@ products = ["Pride and Prejudice", "To Kill a Mockingbird", "The Great Gatsby",\
 "I Capture The Castle", "Brave New World", "The Great Gatsby", "The Great Gatsby",\
 "One Hundred Years of Solitude", "Pride and Prejudice"]
 
-uniqueBooks = []
+uniqueBooks=set(products)
 
+'''
+uniqueBooks = []
 for books in products:
     if books not in uniqueBooks: 
         uniqueBooks.append(books)
+'''
 
 print(uniqueBooks)
