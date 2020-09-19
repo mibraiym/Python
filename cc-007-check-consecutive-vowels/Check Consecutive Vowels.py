@@ -17,6 +17,6 @@ def isConsecutive(word):
         else:
             print("Negative!")
     else:
-        print("Warning! Please enter a word which is contains more than 2 chars.")
+        print("Warning! Please enter a word which contains more than 2 chars.")
 
 isConsecutive(word)
